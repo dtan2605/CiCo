@@ -1,4 +1,19 @@
 services:
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: cico-db
+    environment:
+      - ACCEPT_EULA=Y
+      - MSSQL_SA_PASSWORD=Cico@2024
+      - MSSQL_PID=Express
+    healthcheck:
+      test: /opt/mssql-tools18/bin/sqlcmd -S localhost -U sa -P "Cico@2024" -C -Q "SELECT 1" || exit 1
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 30s
+    restart: unless-stopped
+
   api:
     build:
       context: .
@@ -6,14 +21,18 @@ services:
     container_name: cico-api
     ports:
       - "5009:8080"
-    env_file:
-      - .env
     environment:
       - ASPNETCORE_ENVIRONMENT=Production
       - ASPNETCORE_URLS=http://+:8080
+      - ConnectionStrings__DefaultConnection=Server=sqlserver,1433;Database=CICO;User Id=sa;Password=Cico@2024;TrustServerCertificate=True;MultipleActiveResultSets=true
       - DeviceSettings__Mode=Mock
       - JwtSettings__Issuer=cico-api
       - JwtSettings__Audience=cico-client
+      - JwtSettings__Secret=${JWT_SECRET:-M1ujHk9pL2sR4tW7vXyZ3aB6cD8eF0gNiK5oQ}
+      - JwtSettings__ExpiryInMinutes=60
+    depends_on:
+      sqlserver:
+        condition: service_healthy
     restart: unless-stopped
 
   web:

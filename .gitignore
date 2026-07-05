@@ -22,6 +22,8 @@ Thumbs.db
 
 # Docker
 .env
+.env.example
+.env.local
 
 # Build / logs
 **/logs/
