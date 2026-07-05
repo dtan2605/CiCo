@@ -1,0 +1,28 @@
+# .NET
+**/bin/
+**/obj/
+*.user
+*.suo
+*.sln.docstates
+
+# Node / Next.js
+cico-web/node_modules/
+cico-web/.next/
+cico-web/.env.local
+
+# IDE
+.vs/
+.vscode/
+.idea/
+*.swp
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Docker
+.env
+
+# Build / logs
+**/logs/
+*.log

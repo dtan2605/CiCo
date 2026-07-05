@@ -1,0 +1,19 @@
+FROM jenkins/jenkins:lts-jdk21
+
+USER root
+
+RUN apt-get update && \
+    apt-get install -y --no-install-recommends \
+        curl \
+        ca-certificates \
+        sudo \
+    && rm -rf /var/lib/apt/lists/*
+
+RUN curl -fsSL https://get.docker.com | sh
+
+RUN echo "jenkins ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
+
+COPY ci/jenkins-plugins.txt /usr/share/jenkins/ref/plugins.txt
+RUN jenkins-plugin-cli --plugin-file /usr/share/jenkins/ref/plugins.txt
+
+USER jenkins

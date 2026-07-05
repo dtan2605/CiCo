@@ -1,0 +1,6 @@
+docker-plugin
+docker-workflow
+pipeline-stage-view
+blueocean
+blueocean-pipeline-editor
+github-branch-source

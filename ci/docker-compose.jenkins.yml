@@ -1,0 +1,21 @@
+services:
+  jenkins:
+    build:
+      context: ..
+      dockerfile: ci/Dockerfile.jenkins
+    container_name: cico-jenkins
+    ports:
+      - "8081:8080"
+      - "50000:50000"
+    volumes:
+      - jenkins_home:/var/jenkins_home
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ..:/workspace:cached
+    env_file:
+      - ../.env
+    environment:
+      - JAVA_OPTS=-Djenkins.install.runSetupWizard=false -Dhudson.model.DirectoryBrowserSupport.CSP=
+    restart: unless-stopped
+
+volumes:
+  jenkins_home:

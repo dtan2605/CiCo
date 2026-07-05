@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="cico.API/cico.API.csproj" />
+  <Project Path="cico.Application/cico.Application.csproj" />
+  <Project Path="cico.Domain/cico.Domain.csproj" />
+  <Project Path="cico.Infrastructure/cico.Infrastructure.csproj" />
+  <Project Path="cico.Tests/cico.Tests.csproj" />
+</Solution>

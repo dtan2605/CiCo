@@ -1,0 +1,31 @@
+services:
+  api:
+    build:
+      context: .
+      dockerfile: cico.API/Dockerfile
+    container_name: cico-api
+    ports:
+      - "5009:8080"
+    env_file:
+      - .env
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+      - ASPNETCORE_URLS=http://+:8080
+      - DeviceSettings__Mode=Mock
+      - JwtSettings__Issuer=cico-api
+      - JwtSettings__Audience=cico-client
+    restart: unless-stopped
+
+  web:
+    build:
+      context: cico-web
+      dockerfile: Dockerfile
+    container_name: cico-web
+    ports:
+      - "3000:3000"
+    environment:
+      - NEXT_PUBLIC_API_URL=http://localhost:5009/api
+      - NEXT_TELEMETRY_DISABLED=1
+    depends_on:
+      - api
+    restart: unless-stopped

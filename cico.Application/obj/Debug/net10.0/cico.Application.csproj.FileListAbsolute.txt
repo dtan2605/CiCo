@@ -1,0 +1,15 @@
+D:\Project\Hybrid\CiCo\cico.Application\bin\Debug\net10.0\cico.Application.deps.json
+D:\Project\Hybrid\CiCo\cico.Application\bin\Debug\net10.0\cico.Application.dll
+D:\Project\Hybrid\CiCo\cico.Application\bin\Debug\net10.0\cico.Application.pdb
+D:\Project\Hybrid\CiCo\cico.Application\bin\Debug\net10.0\cico.Domain.dll
+D:\Project\Hybrid\CiCo\cico.Application\bin\Debug\net10.0\cico.Domain.pdb
+D:\Project\Hybrid\CiCo\cico.Application\obj\Debug\net10.0\cico.Application.csproj.AssemblyReference.cache
+D:\Project\Hybrid\CiCo\cico.Application\obj\Debug\net10.0\cico.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\Hybrid\CiCo\cico.Application\obj\Debug\net10.0\cico.Application.AssemblyInfoInputs.cache
+D:\Project\Hybrid\CiCo\cico.Application\obj\Debug\net10.0\cico.Application.AssemblyInfo.cs
+D:\Project\Hybrid\CiCo\cico.Application\obj\Debug\net10.0\cico.Application.csproj.CoreCompileInputs.cache
+D:\Project\Hybrid\CiCo\cico.Application\obj\Debug\net10.0\cico.App.846E4CAE.Up2Date
+D:\Project\Hybrid\CiCo\cico.Application\obj\Debug\net10.0\cico.Application.dll
+D:\Project\Hybrid\CiCo\cico.Application\obj\Debug\net10.0\refint\cico.Application.dll
+D:\Project\Hybrid\CiCo\cico.Application\obj\Debug\net10.0\cico.Application.pdb
+D:\Project\Hybrid\CiCo\cico.Application\obj\Debug\net10.0\ref\cico.Application.dll

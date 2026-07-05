@@ -1,0 +1,15 @@
+**/bin
+**/obj
+**/node_modules
+**/.vs
+**/.git
+**/.gitignore
+*.md
+**/launchSettings.json
+cico-web/
+cico.Tests/
+.git/
+.editorconfig
+*.user
+*.suo
+

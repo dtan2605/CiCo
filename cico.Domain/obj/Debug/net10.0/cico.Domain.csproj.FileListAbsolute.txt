@@ -1,0 +1,11 @@
+D:\Project\Hybrid\CiCo\cico.Domain\bin\Debug\net10.0\cico.Domain.deps.json
+D:\Project\Hybrid\CiCo\cico.Domain\bin\Debug\net10.0\cico.Domain.dll
+D:\Project\Hybrid\CiCo\cico.Domain\bin\Debug\net10.0\cico.Domain.pdb
+D:\Project\Hybrid\CiCo\cico.Domain\obj\Debug\net10.0\cico.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\Hybrid\CiCo\cico.Domain\obj\Debug\net10.0\cico.Domain.AssemblyInfoInputs.cache
+D:\Project\Hybrid\CiCo\cico.Domain\obj\Debug\net10.0\cico.Domain.AssemblyInfo.cs
+D:\Project\Hybrid\CiCo\cico.Domain\obj\Debug\net10.0\cico.Domain.csproj.CoreCompileInputs.cache
+D:\Project\Hybrid\CiCo\cico.Domain\obj\Debug\net10.0\cico.Domain.dll
+D:\Project\Hybrid\CiCo\cico.Domain\obj\Debug\net10.0\refint\cico.Domain.dll
+D:\Project\Hybrid\CiCo\cico.Domain\obj\Debug\net10.0\cico.Domain.pdb
+D:\Project\Hybrid\CiCo\cico.Domain\obj\Debug\net10.0\ref\cico.Domain.dll
