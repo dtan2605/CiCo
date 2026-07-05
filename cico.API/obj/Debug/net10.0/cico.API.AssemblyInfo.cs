@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("cico.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+96c4264d28d6bc9e60dffa6a57d811167d465643")]
 [assembly: System.Reflection.AssemblyProductAttribute("cico.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("cico.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

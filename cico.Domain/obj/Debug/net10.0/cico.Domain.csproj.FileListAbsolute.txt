@@ -9,3 +9,4 @@ D:\Project\Hybrid\CiCo\cico.Domain\obj\Debug\net10.0\cico.Domain.dll
 D:\Project\Hybrid\CiCo\cico.Domain\obj\Debug\net10.0\refint\cico.Domain.dll
 D:\Project\Hybrid\CiCo\cico.Domain\obj\Debug\net10.0\cico.Domain.pdb
 D:\Project\Hybrid\CiCo\cico.Domain\obj\Debug\net10.0\ref\cico.Domain.dll
+D:\Project\Hybrid\CiCo\cico.Domain\obj\Debug\net10.0\cico.Domain.sourcelink.json

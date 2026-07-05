@@ -13,3 +13,4 @@ D:\Project\Hybrid\CiCo\cico.Application\obj\Debug\net10.0\cico.Application.dll
 D:\Project\Hybrid\CiCo\cico.Application\obj\Debug\net10.0\refint\cico.Application.dll
 D:\Project\Hybrid\CiCo\cico.Application\obj\Debug\net10.0\cico.Application.pdb
 D:\Project\Hybrid\CiCo\cico.Application\obj\Debug\net10.0\ref\cico.Application.dll
+D:\Project\Hybrid\CiCo\cico.Application\obj\Debug\net10.0\cico.Application.sourcelink.json

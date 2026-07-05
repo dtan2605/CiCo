@@ -17,3 +17,4 @@ D:\Project\Hybrid\CiCo\cico.Infrastructure\obj\Debug\net10.0\refint\cico.Infrast
 D:\Project\Hybrid\CiCo\cico.Infrastructure\obj\Debug\net10.0\cico.Infrastructure.pdb
 D:\Project\Hybrid\CiCo\cico.Infrastructure\obj\Debug\net10.0\cico.Infrastructure.genruntimeconfig.cache
 D:\Project\Hybrid\CiCo\cico.Infrastructure\obj\Debug\net10.0\ref\cico.Infrastructure.dll
+D:\Project\Hybrid\CiCo\cico.Infrastructure\obj\Debug\net10.0\cico.Infrastructure.sourcelink.json
